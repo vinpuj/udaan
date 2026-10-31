@@ -1,0 +1,18 @@
+# Credentials and local deployment configuration
+.env*
+!.env.example
+.vercel/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencies and generated PDF.js assets
+node_modules/
+public/vendor/
+coverage/
+
+# Local files
+*.log
+.DS_Store
+Thumbs.db

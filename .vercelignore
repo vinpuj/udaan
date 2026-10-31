@@ -1,0 +1,6 @@
+.env
+.env.*
+tests/
+node_modules/
+public/vendor/
+*.log

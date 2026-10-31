@@ -1,0 +1,28 @@
+{
+  "name": "udaan-career-coach",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Voice-led career guidance with evidence, practice and a plan that adapts.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "prestart": "npm run build",
+    "start": "node server.mjs",
+    "test": "node --test --test-isolation=none tests/*.test.mjs"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "pdfjs-dist": "6.4.299"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinpuj/udaan.git"
+  },
+  "homepage": "https://udaan-orpin.vercel.app/",
+  "bugs": {
+    "url": "https://github.com/vinpuj/udaan/issues"
+  }
+}
